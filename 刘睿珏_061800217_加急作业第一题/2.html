@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Zhuce</title>
+    <link rel="stylesheet" href="zhuce.css">
+</head>
+<body>
+    <div id="div1">
+        <img src="注册照片.jpg" alt="zhaopian" width="460px" height="460px" >
+        <div id="div1_0"></div>
+        <div id="div1_1"></div>
+        <div id="div1_1w">LOGIN</div>
+        <div id="div1_2"></div><div id="div1_3"></div>
+        <div id="div1_2w">请在邮箱一栏输入正确邮箱格式，<br/>&nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;有重复的字符，数字要求在</div>
+        <div id="div1_21w">密码要求不能<br/> &nbsp;  [2,8]之间，可以包</div>
+        <div id="div1_5"></div><div id="div1_4"></div>
+        <div id="div1_3w">含任意大小写字母，必须<br/>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;包含{#,&,*,?}四个特殊字</div>
+        <div id="div1_31w">有三个大写字母，必须<br/>&nbsp; &nbsp;符中的一个。</div>
+    </div>
+    <div id="div2">
+       <p id="div2_w">注册</p>
+       <label for="mile">邮箱: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+       <input type="email" name="mile" id="div2_e" width="20px" ondblclick="reInput(1)">
+       <ul id="div2_ul1"></ul>
+       <label for="mima">密码: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+       <input type="password" name="mima" id="div2_m" width="40px" ondblclick="reInput(2)" onkeypress="myFunction(event)" value="">
+       <ul id="div2_ul2"></ul>
+       <label for="queren">确认密码:   </label>
+       <input type="password" name="queren" id="div2_cm" ondblclick="reInput(3)" width="20px"/>
+       <ul id="div2_ul3"></ul>
+       <input type="button"ubm value="确认" id="div2_q" onclick="check()"/>  
+       
+    </div>
+    
+</body>
+<script type="text/javascript" src="zhuce.js"></script>
+</html>
